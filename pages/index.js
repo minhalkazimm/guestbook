@@ -1,31 +1,7 @@
 import Head from 'next/head'
 import { Flex, Heading, Link, Text } from '@chakra-ui/react'
 import Comment from '../components/Comment'
-
-const comments = [
-  {
-    comment: 'Hi there, cool work, keep it up!',
-    username: 'afrieirham',
-    date: '2021-07-29T10:16:36Z',
-  },
-  {
-    comment: "hey Rob! this is the best personal site i've come across in a long while.",
-    username: 'afrieirham',
-    date: '2021-07-23T10:16:36Z',
-  },
-  {
-    comment:
-      'I really appreciate your efforts for delivering the such a helpful content, keep it up.',
-    username: 'afrieirham',
-    date: '2021-05-29T10:16:36Z',
-  },
-  {
-    comment:
-      'Stumbled across your content after researching Redis and recognised you from Next Conf. Keep up the good work :)',
-    username: 'afrieirham',
-    date: '2021-04-29T10:16:36Z',
-  },
-]
+import { comments } from '../sign-here/index'
 
 export default function Home() {
   return (
