@@ -23,8 +23,11 @@ export default function Home() {
             Guestbook
           </Heading>
           <Text mt={2} color='gray.500'>
-            This guestbook is part of the <Link>"Your First Open-Source Contribution"</Link> article
-            on Hashnode by <Link>Afrie Irham</Link>.
+            This guestbook is part of the "
+            <Link isExternal href='' textDecoration='underline' _hover={{ color: 'blue.500' }}>
+              Your First Open-Source Contribution
+            </Link>
+            " article on Hashnode by <Link>Afrie Irham</Link>.
           </Text>
         </Flex>
         <Flex direction='column' mt={8}>
