@@ -3,7 +3,7 @@
  * I hope by doing this you'll learn how to contribute to an open-source projects and continue to contribute more in open-source projects.
  *
  *
- * 1. To get started, please copy the template provided and paste it at the last item on the list.  IMPORTANT! – COPY FROM LINE 19 TO 23
+ * 1. To get started, please copy the template provided and paste it at the last item on the list.  IMPORTANT! – COPY FROM LINE 20 TO 24
  *
  * 2. For the date section, please go to this link 👉 https://greenwichmeantime.com/articles/clocks/iso/
  *
