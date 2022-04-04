@@ -35,8 +35,8 @@ export default function Home({ comments }) {
           <Heading size='sm' mb={4} color='gray.800'>
             Kind words from people ✨
           </Heading>
-          {comments.map((item) => (
-            <Comment comment={item.comment} username={item.username} date={item.date} />
+          {comments.map((comment) => (
+            <Comment key={comment.username} comment={comment} />
           ))}
         </Flex>
       </Flex>
