@@ -21,7 +21,7 @@ Copy the template below and create a file in `public/sign-here` with your GitHub
 
 ```json
 {
-  "comment": "Change this with your comment",
+  "body": "Change this with your comment",
   "date": ""
 }
 ```
@@ -38,7 +38,7 @@ Your JSON file should look like this:
 
 ```json
 {
-  "comment": "Change this with your comment",
+  "body": "Change this with your comment",
   "date": "2022-04-04T23:25:49Z"
 }
 ```
