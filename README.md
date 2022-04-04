@@ -1,8 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Introduction
+Before you start, I would like to thank you for participating in this small project of mine – I really appreciate it.
+
+I hope by doing this you'll learn how to contribute to an open-source projects and continue to contribute more in open-source projects.
 
 ## Getting Started
 
-First, run the development server:
+**1. Run the development server:**
 
 ```bash
 npm run dev
@@ -12,23 +15,30 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**2. Create your json file**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Copy the template below and create a file in `public/sign-here` with your GitHub username `github-username.json`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```json
+{
+  "comment": "Change this with your comment",
+  "date": ""
+}
+```
 
-## Learn More
+**Important**: I won't approve your PR if you don't use GitHub username for the file name.
 
-To learn more about Next.js, take a look at the following resources:
+**3. Adding the date**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- For the date section, please go to this [link](https://greenwichmeantime.com/articles/clocks/iso/).
+- Click on the "copy to clipboard" button.
+- And paste it in the date section.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Your JSON file should look like this:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```json
+{
+  "comment": "Change this with your comment",
+  "date": "2022-04-04T23:25:49Z"
+}
+```
