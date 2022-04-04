@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import { Flex, Heading, Link, Text } from '@chakra-ui/react'
-import Comment from '../components/Comment'
-import { comments } from '../sign-here/index'
 
-export default function Home() {
+import Comment from '../components/Comment'
+import { getAllComments } from '../util/getAllComments'
+
+export default function Home({ comments }) {
   return (
     <Flex w='full' p={2}>
       <Head>
@@ -42,3 +43,16 @@ export default function Home() {
     </Flex>
   )
 }
+
+export const getStaticProps = async () => {
+  const comments = await getAllComments()
+
+  return {
+    props: { comments },
+    // Next.js will attempt to re-generate the page:
+    // - When a request comes in
+    // - Every second
+    revalidate: 1,
+  }
+}
+
