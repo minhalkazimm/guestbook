@@ -1,4 +1,6 @@
 ## Project Introduction
+Hi there, this project is part of the "Your First Open-Source Contribution" article on Hashnode by [afrieirham](https://github.com/afrieirham)
+
 Before you start, I would like to thank you for participating in this small project of mine – I really appreciate it.
 
 I hope by doing this you'll learn how to contribute to an open-source projects and continue to contribute more in open-source projects.
