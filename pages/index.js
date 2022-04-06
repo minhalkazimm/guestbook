@@ -25,10 +25,10 @@ export default function Home({ comments }) {
           </Heading>
           <Text mt={2} color='gray.500'>
             This guestbook is part of the "
-            <Link isExternal href='' textDecoration='underline' _hover={{ color: 'blue.500' }}>
+            <Link isExternal href='https://blog.afrieirham.com/your-first-open-source-contribution' textDecoration='underline' _hover={{ color: 'blue.500' }}>
               Your First Open-Source Contribution
             </Link>
-            " article on Hashnode by <Link>Afrie Irham</Link>.
+            " article on Hashnode.
           </Text>
         </Flex>
         <Flex direction='column' mt={8}>
